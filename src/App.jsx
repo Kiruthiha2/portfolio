@@ -128,13 +128,14 @@ function App() {
             <a href="#contact" className="btn secondary-btn">
               Let’s Connect
             </a>
-            <a
-              href={`${import.meta.env.BASE_URL}resume.pdf`}
-              download
-              className="btn secondary-btn"
-            >
-            Download CV
-          </a>
+           <a
+  href={`${import.meta.env.BASE_URL}resume.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn secondary-btn"
+>
+  Download Resume
+</a>
           </div>
 
           <div className="hero-stats">
